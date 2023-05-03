@@ -1,4 +1,7 @@
 # Challenge-5-Personal-Calendar
+
+The personal calendar is a daily planner that helps users effectively manage their schedules on a daily basis. 
+
 User Story:
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
