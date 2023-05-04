@@ -4,7 +4,7 @@
 var now = dayjs();
 document.getElementById("currentDay").textContent = dayjs()
 
-// creates the visuals for the scheduler body
+// create the scheduler planner body
 
 var hrRow = ""
 //loop to dispaly 9am-18pm
@@ -20,6 +20,8 @@ for (var i = 9; i <= 18; i++) {
   getlocalStorage(i)
 }
 
+//Create save function with click button
+
 $(".saveBtn").click(function (e) {
   var id = $(this).data("id")
   console.log("this is ID: ", id)
@@ -28,7 +30,7 @@ $(".saveBtn").click(function (e) {
   localStorage.setItem(id, inputText)
 })
 
-//  Convert Am to Pm
+//  Convert Am to PM for time
 function displayAmorPm(hour) {
   var b = ""
   if (hour <= 12) {
@@ -48,7 +50,7 @@ function getlocalStorage(hour) {
 }
 
 
-//Update color
+//Update color for past and present time
 function updateColor() {
   var hour = new Date().getHours();
   for (var i = 9; i <= 18; i++) {
