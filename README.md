@@ -1,5 +1,7 @@
 # Challenge-5-Personal-Calendar
 
+Link to app - https://cassieellaelaine.github.io/Challenge-5-Personal-Calendar/
+
 The personal calendar is a daily planner that helps users effectively manage their schedules on a daily basis. 
 
 User Story:
